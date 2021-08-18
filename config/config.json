@@ -1,5 +1,4 @@
 {
-    "token": "bot token",
-    "prefix": "bot prefix",
-    "mongooseConnectionString": "mongo url"
+    "token": "Bot_Token",
+    "prefix": "Bot_Prefix"
 }
