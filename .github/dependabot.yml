@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  target-branch: develop
+  reviewers:
+  - Wumpus/Npg
+  ignore:
+  - dependency-name: ascii-table
+    versions:
+    - 0.0.9
+    
